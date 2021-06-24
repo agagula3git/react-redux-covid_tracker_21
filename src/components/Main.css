@@ -1,0 +1,30 @@
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    margin-left: 800px;
+    margin-bottom: 60px;
+}
+
+.data-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.data-box div#cases, div#deaths{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9FE2BF;
+    width: 700px;
+    align-content: center;
+}
+
+
+
+
+
+
