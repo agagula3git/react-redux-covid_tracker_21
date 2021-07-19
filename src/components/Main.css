@@ -18,9 +18,22 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    align-content: flex-start;
     background-color: #9FE2BF;
     width: 700px;
     align-content: center;
+}
+
+.select-box{
+    margin: 30px 0 0 100px;
+}
+
+select{
+    padding: 5px;
+    width: 1500px;
+    font-size: 12pt;
+    color: #000;
 }
 
 
