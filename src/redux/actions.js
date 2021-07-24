@@ -26,7 +26,6 @@ export function setCountry(country){
         })
         .then(res =>{
             const data = res.data.Countries.filter(obj => obj.Country === country)
-            console.log(data[0])
             dispatch({ type: 'SET_COUNTRY', payload: data[0]})
         })
         .catch(err => console.log(err))

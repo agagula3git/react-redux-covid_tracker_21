@@ -27,8 +27,28 @@ h1{
 
 .select-box{
     margin: 30px 0 0 100px;
+    display: flex;
+    flex-direction: column;
 }
 
+.select-box button{
+    margin-top: 10px;
+    font-size: 12pt;
+    width: 80px;
+    height: 30px;
+    background-color: #9FE2BF;
+    border: none;
+    border-radius: 5px;
+}
+
+.select-box button:hover{
+    opacity: 0.8;
+    color: #CD5C5C;
+}
+
+.select-box button a{
+    text-decoration: none;
+}
 select{
     padding: 5px;
     width: 1500px;
